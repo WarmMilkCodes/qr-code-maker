@@ -9,5 +9,5 @@ file_name_no_period = custom_qr.replace('.','')
 
 file_name = file_name_no_period + '.jpg'
 time.sleep(5)
-img.save(file_name_no_period)
+img.save(file_name)
 print('Your QR code has been saved.')
