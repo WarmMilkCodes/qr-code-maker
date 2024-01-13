@@ -21,8 +21,6 @@ def create_custom_qr(url, file_name):
     # Create an image with a transparent background
     img = qr.make_image(fill_color="black", back_color="white").convert('RGB')
 
-    # Customizations can be added here using PIL, like adding a logo or changing shapes
-
     # Save the QR Code
     img.save(file_name)
     print(f'Your QR code has been saved as {file_name}')
